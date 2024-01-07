@@ -60,8 +60,23 @@ h5{
 .content{
     margin-left:auto;
     margin-right:auto;
-    max-width:980px
+    max-width:980px;
+    display: block;
 }
+.aboutMe{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+    display: flex;
+}
+  .profile-picture {
+    flex: 1; /* Takes up 1 portion of the flex container */
+  }
+  
+  .about-content {
+    flex: 2; /* Takes up 2 portions of the flex container */
+    padding-left: 70px; 
+  }
 .navbar{
     position: fixed;
     width: 100%;

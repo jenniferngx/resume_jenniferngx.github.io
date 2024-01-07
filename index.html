@@ -28,13 +28,13 @@ body, html {
       <a href="#education" class="button block black">EDUCATION</a>
     </div>
     <div class="navbar_link">
+      <a href="#experience" class="button block black">WORK EXPERIENCE</a>
+    </div>
+    <div class="navbar_link">
+      <a href="#projects" class="button block black">PROJECTS</a>
+    </div>
+    <div class="navbar_link">
       <a href="#skills" class="button block black">SKILLS</a>
-    </div>
-    <div class="navbar_link">
-      <a href="#computing" class="button block black">COMPUTING</a>
-    </div>
-    <div class="navbar_link">
-      <a href="#leadership" class="button block black">ADDITIONAL WORK & LEADERSHIP</a>
     </div>
   </div>
 </div>
@@ -44,30 +44,41 @@ body, html {
 
 <!-- About Container -->
 <div class="container" id="about">
-  <div class="content" style="max-width:700px">
-    <h5 class="center padding-64"><span class="tag wide">ABOUT ME</span></h5>
-    <p>I am a dedicated and skilled Computer Science/Mathematics student at Colgate University, graduating in May 2024. With experience in software development and data analysis, I have a strong foundation in problem-solving and technical innovation. My goal is to apply my technical knowledge along with a keen interest in technology to contribute effectively to a forward-thinking team. </p>
+  <h3 class="center padding-48"><span class="tag wide">ABOUT ME</span></h3>
+  <div class="aboutMe" style="max-width:700px">
+    <div class="profile-picture">
+      <img src="pfp.jpg" alt="Profile Picture" style="width:120%; max-width:300px;height:auto;">
+      <p><strong>Phone number:</strong> +(1) 646-704-9564</p>
+      <p><strong>Email:</strong> tnguyendoha@colgate.edu</p>
+      <p><strong>Address:</strong> Edmundston, New Brunswick, E3V 3X4</p>  
+    </div>
 
-    <p><strong>Phone number:</strong> +(1) 646-704-9564</p>
-    <p><strong>Email:</strong> tnguyendoha@colgate.edu</p>
-    <p><strong>Address:</strong> Edmundston, New Brunswick, E3V 3X4</p>
-
+    <div class="about-content">
+      <p>I am a Computer Science/Mathematics student at Colgate University, graduating in May 2024. Currently living in Canada and originally from Hanoi, Vietnam, I chose to go to college in the US to explore the opportunities for my academic dedication and my aspiration to work in what I am truly passionate about, technology.  </p>
+      <p>With experience in software development and data analysis, I have a strong foundation in problem-solving and technical innovation. My goal is to apply my technical knowledge along with a keen interest in technology to contribute effectively to a forward-thinking team. </p>
+    </div>
+  
   </div>
 </div>
 
 <!-- EDUCATION -->
 <div class="container" id="education">
     <br>
+    <h3 class="center padding-48"><span class="tag wide">EDUCATION</span></h3>
     <div class="content" style="max-width:700px">
  
-    <h5 class="center padding-48"><span class="tag wide">EDUCATION</span></h5>
-  
     <div class="row card padding">
       <h5 class="center">Colgate University | Hamilton, NY</h5>
       <ul >
         <li>Bachelor of Arts, Major: Computer Science/ Mathematics</li>
-        <li>GPA: 3.33</li>
-        <li>Relevant Coursework: Python, Java, Data Structures & Algorithm, C,  HCI, Computational Statistics, Data Analysis, Applied Machine Learning</li>
+        <li><strong>GPA:</strong> 3.33</li>
+        <li><strong>Awards:</strong>
+          <ul>
+            <li>Dean's Award with Distinction (x2)</li>
+            <li>Steven N. Cho '93 Endowed Scholar</li>
+          </ul>
+        </li>
+        <li><strong>Relevant Coursework:</strong> Python, Java, Data Structures & Algorithm, C,  HCI, Computational Statistics, Data Analysis, Software Testing, Applied Machine Learning</li>
       </ul>
     </div>
 </div>
@@ -75,9 +86,8 @@ body, html {
 <!-- SKILLS -->
 <div class="container" id="skills">
     <br>
+    <h3 class="center padding-48"><span class="tag wide">SKILLS</span></h3>
     <div class="content" style="max-width:700px">
-   
-      <h5 class="center padding-48"><span class="tag wide">SKILLS</span></h5>
     
       <div class="row card padding">
         <h5> Proficient: Java • C • Python • ReactJS • HTML • CSS • Git • VSCode • RStudio • LaTeX </h5>
@@ -85,28 +95,28 @@ body, html {
       </div>
   </div>
 
-<!-- COMPUTING -->
-<div class="container" id="computing">
+<!-- WORK EXPERIENCE -->
+<div class="container" id="experience">
     <br>
+    <h3 class="center padding-48"><span class="tag wide">WORK EXPERIENCE </span></h3>
+    
     <div class="content" style="max-width:1100px">
    
-      <h5 class="center padding-48"><span class="tag wide">SOFTWARE ENGINEERING & COMPUTING </span></h5>
-    
       <div class="row center card padding">
-        <a href="javascript:void(0)" class="computing_experience" onclick="openMenu(event, 'Viettel');" id="myLink">
-          <div class="col s5 tablink">AI Intern at Viettel Construction</div>
+        <a href="javascript:void(0)" class="work_experience" onclick="openMenu(event, 'Viettel');" id="viettel">
+          <div class="col s5 tablink">AI Intern</div>
         </a>
-        <a href="javascript:void(0)" class="computing_experience" onclick="openMenu(event, 'C_assignment');"id="myLink">
-          <div class="col s5 tablink">C Assignment</div>
+        <a href="javascript:void(0)" class="work_experience" onclick="openMenu(event, '3TBK');"id="3tbk">
+          <div class="col s5 tablink">Software Engineer Intern</div>
         </a>
-        <a href="javascript:void(0)" class="computing_experience" onclick="openMenu(event, 'Java_assignment');"id="myLink">
-            <div class="col s5 tablink"> Java Assignment</div>
+        <a href="javascript:void(0)" class="work_experience" onclick="openMenu(event, 'TA');"id="ta">
+          <div class="col s5 tablink">Calculus III TA</div>
         </a>
-        <a href="javascript:void(0)" class="computing_experience" onclick="openMenu(event, 'Personal_project');"id="myLink">
-            <div class="col s5 tablink">Recipe Search API - Personal Project</div>
+        <a href="javascript:void(0)" class="work_experience" onclick="openMenu(event, 'CL');"id="cl">
+          <div class="col s5 tablink"> Community Leader</div>
         </a>
-        <a href="javascript:void(0)" class="computing_experience" onclick="openMenu(event, '3TBK');"id="myLink">
-            <div class="col s5 tablink">Intern at 3TBK Technology</div>
+        <a href="javascript:void(0)" class="work_experience" onclick="openMenu(event, 'Keck');" id="keck">
+          <div class="col s5 tablink">Language Ambassador</div>
         </a>
       </div>
   </div>
@@ -115,39 +125,83 @@ body, html {
    <div id="Viettel" class="container menu card" >
         <h5 class="center"><strong>Viettel Construction | AI Intern</strong> </h5>
         <h5 class="center"><dfn>Summer 2023</dfn> </h5>
+        <h5><dfn>Viettel Construction is renowned for extensive telecom infrastructure projects across Vietnam and in 10 other countries. My experience here not only helped me develop crucial technical skills but also deepend my appreciation for technology's role in impact operational efficiency and solving real world problems.</dfn> </h5>
 
         <ul>
-            <li>Enhanced corporate operations by developing an Optical Character Recognition (OCR) system to optimize accuracy of contracts, using the VietOCR library</li>
-            <li>Automated payroll disbursement for over 11,000 employees, using captcha recognition </li>
-            <li>Improved safety standards on construction sites throughout 63 provinces by analyzing CCTV footage using object recognition</li>
+            <li>I developed an advanced OCR system using the VietOCR library, tailored to process documents with signatures and colored seals. My solution involved image preprocessing, including color filtering and custom binarization. After iterative optimization to handle the challenge of skewed texts and low-resolution scans, I succesfully deployed an OCR system for operational use that significantly reduced manual data entry errors and streamlined contract processing.</li>
+            <li>I programmed a captcha recognition system for automated payroll disbursement. Using Python, I integrated the Selenium framework for browser automation to interact with payroll portals. The key challenge was ensuring accuracy and reliability, which I addressed by implementing the Tesseract OCR engine and custom algorithms for image preprocessing. This significantly reduced manual intervention and streamlined the payroll process for 11,000 employees </li>
+            <li>I also analyzed CCTV footage from construction sites, using Python and TensorFlow. I fine-tuned object recognition models to detect specific safety parameters such as workers without safety gear, enhancing safety standards across 63 provinces </li>
         </ul>
     </div>
 
-    <div id="C_assignment" class="container menu card">
-        <h5 class="center"><strong>Heapify Maze Solver – C | Intro to Computer Systems | Colgate University</strong></h5>
-        <h5 class="center"><dfn> Oct 2022 </dfn></h5>
+    <div id="3TBK" class="container menu card">
+        <h5 class="center"> <strong>3TBK Technology | Software Engineer Intern </strong></h5>
+        <h5 class="center"><dfn> Spring - Summer 2021 </dfn></h5>
 
         <ul>
-            <li>Implemented data structures for a maze solver by using dynamically allocated heap memory </li>
-            <li>Diagnosed and fixed memory errors/leaks in the program by using valgrind</li>
-        </ul>
-    </div>
-
-    <div id="Java_assignment" class="container menu card">
-        <h5 class="center"><strong>Margin Alignment Optimization– Java | Data Structures & Algorithms | Colgate University</strong></h5>
-        <h5 class="center"><dfn> Oct 2022 </dfn></h5>
-
-        <ul>
-            <li>Designed a dynamic programming algorithm that rewrites text so that its right margin is as even as possible by using recursion from the bottom up </li>
+            <li>During my internship, I engineered a vehicle tracking system using embedded C for data collection and processing, interfacing with OBD-II ports to gather metrics like speed, RPM, and fuel consumption. I integrated 4G modules for real-time data transmission, enabling Google Maps integration for accurate vehicle tracking. Additionally, I developed a web and mobile interface using JavaScript, namely Node.js, and React, enhancing user interaction and contributing to over 5,000 app downloads, thereby boosting the product's market appeal. This project not only refined my technical skills in software and hardware integration but also underscored the real-world impact of technology in automotive safety and efficiency.</li>
         </ul>
     </div> 
+
+    <div id="TA" class="container menu card" >
+      <h5 class="center"><strong>Department of Mathematics, Colgate University | Calculus III TA </strong> </h5>
+      <h5 class="center"><dfn> Aug 2021 - Dec 2021 </dfn></h5>
+  
+      <ul>
+          <li>I tutored 2 sections of students (~60 total) on complex topics including partial derivatives, multiple integrals, and surfaces in 3-dimensional space. </li>
+          <li>A key challenge was simplifying these intricate concepts for diverse learning styles, which I addressed through personalized tutoring during office hours and providing detailed feedback on homework. My efforts were extremely helpful in enhancing students' understanding, as reflected in their improved homework performance. This role significantly honed my communication skills, as I learned to convey complex mathematical concepts with clarity.</li>
+      </ul>
+    </div>
+
+    <div id="CL" class="container menu card" >
+      <h5 class="center"><strong>Office of Residential Life, Colgate University | Community Leader</strong> </h5>
+      <h5 class="center"><dfn> Aug 2021 - Present </dfn></h5>
+      <ul>
+          <li>My responsibilities included leading and supervising student residents, organizing engaging events, and responding promptly to emergencies. This experience challenged and developed my leadership and crisis management skills, especially in coordinating community-building actives and ensuring student safety.</li>
+      </ul>
+    </div>
+
+    <div id="Keck" class="container menu card" >
+      <h5 class="center"><strong>Keck Language Center, Colgate University | Language Ambassador</strong> </h5>
+      <h5 class="center"><dfn> Aug 2022 - May 2024 </dfn></h5>
+  
+      <ul>
+          <li>My role is to enhance linguistic and cultural exchange by organizing interactive events/ workshops to forge connections/friendships between students and language interns. A key challenge is creating a welcoming atmosphere for students of diverse language proficiencies. </li>
+          <li>By building a more comfortable environment, we achieved a notable increase in student engagement. Students felt less intimidated to seek help and actively participated, as reflected by the increased turnout of students coming to the Keck Language Center for conversations with the tutors and interns.</li>
+      </ul>
+    </div>
     
-    <div id="Personal_project" class="container menu card">
+  </div>
+</div>
+<br>
+
+<!-- PROJECTS -->   
+<div class="container" id="projects">
+  <br>
+  <h3 class="center padding-48"><span class="tag wide">PROJECTS </span></h3>
+
+  <div class="content " style="max-width:1100px">
+   
+      <div class="row center card padding">
+        <a href="javascript:void(0)" class="project" onclick="openMenu2(event, 'Personal_project');"id="recipe">
+          <div class="col s3 tablink2">Recipe Search API</div>
+        </a>
+        <a href="javascript:void(0)" class="project" onclick="openMenu2(event, 'C_assignment');"id="c">
+          <div class="col s3 tablink2">Maze Solver</div>
+        </a>
+        <a href="javascript:void(0)" class="project" onclick="openMenu2(event, 'Java_assignment');"id="java">
+            <div class="col s3 tablink2"> Margin Alignment Optimization</div>
+        </a>
+  </div>
+    <br>
+  <div>
+      <div id="Personal_project" class="container menu2 card">
         <h5 class="center"> <strong>Recipe Search API (Front-End) | Personal Project </strong></h5>
         <h5 class="center"><dfn> Jul 2022 </dfn></h5>
+        <h5><dfn> Being away from my family for the first time, I struggled massively with cooking, which inspired me to create this website for my own personal use </dfn></h5>
 
         <ul>
-            <li>Built a website to display recipes from 4 different cultures and allow users to search for 5000+ recipes using the Spoonacular API</li>
+            <li>I built a multi-cultural recipe website, featuring over 5,000 recipes via the Spoonacular API. The main challenge was ensuring responsive data rendering and seamless user experience. Utilizing ReactJS with Hooks for efficient state management and async/await for smooth API interaction, I created a user-friendly interface and deployed the website to GitHub Pages, practicing my skills in front-end developemt and solving the problem of having to call my mom for the recipe. </li>
             <li>Used: ReactJS, Hooks (State/Effect), Asynchronous API (async/await) & deployed to GitHub Pages </li>
         </ul>
         <div class="center navbar_link">
@@ -155,67 +209,26 @@ body, html {
         </div>
     </div> 
 
-    <div id="3TBK" class="container menu card">
-        <h5 class="center"> <strong>3TBK Technology | Intern </strong></h5>
-        <h5 class="center"><dfn> Summer 2021 </dfn></h5>
+    <div id="C_assignment" class="container menu2 card">
+        <h5 class="center"><strong>Heapify Maze Solver – C | Intro to Computer Systems | Colgate University</strong></h5>
+        <h5 class="center"><dfn> Oct 2022 </dfn></h5>
+  
+        <ul>
+            <li>I developed a Maze Solver in C, implementing data structures using dynamically allocated heap memory to efficiently solve mazes. A significant challenge was diagnosing and fixing memory errors/leaks, which I managed using Valgrind. Through this process, I not only enhanced the program's efficiency, but also sharpened my skills in memory management and debugging in C. </li>
+        </ul>
+    </div>
+
+    <div id="Java_assignment" class="container menu2 card">
+        <h5 class="center"><strong>Margin Alignment Optimization– Java | Data Structures & Algorithms | Colgate University</strong></h5>
+        <h5 class="center"><dfn> Oct 2022 </dfn></h5>
 
         <ul>
-            <li>Wrote embedded programs for a vehicle tracking device that interacts with the OBD-II port to allow users to access route tracking, vehicle parameters, and onboard surveillance via a web app.</li>
-            <li>Developed familiarity with electronic circuits design and testing procedures</li>
+            <li>I designed a dynamic programming algorithm to evenly adjust the right margin, utilizing a bottom-up recursive approach.</li>
         </ul>
     </div> 
-  </div>
-</div>
-<br>
-<!-- ADDITIONAL WORK & LEADERSHIP -->   
-<div class="container" id="leadership">
-
-    <div class="content" style="max-width:1100px">
-   
-      <h5 class="center padding-48"><span class="tag wide">ADDITIONAL WORK & LEADERSHIP EXPERIENCE </span></h5>
-    
-      <div class="row center card padding">
-        <a href="javascript:void(0)" class="leadership_experience" onclick="openMenu(event, 'Keck');" id="myLink">
-          <div class="col s3 tablink">Language Ambassador at the Keck Center</div>
-        </a>
-        <a href="javascript:void(0)" class="leadership_experience" onclick="openMenu(event, 'TA');"id="myLink">
-          <div class="col s3 tablink">Calculus III TA</div>
-        </a>
-        <a href="javascript:void(0)" class="leadership_experience" onclick="openMenu(event, 'CL');"id="myLink">
-            <div class="col s3 tablink"> Community Leader</div>
-        </a>
       </div>
       <br>
   </div>
-
- 
-  
-  <div id="Keck" class="container menu card" >
-    <h5 class="center"><strong>Keck Language Center | Language Ambassador | Colgate University</strong> </h5>
-    <h5 class="center"><dfn> Aug 2022 - May 2024 </dfn></h5>
-
-    <ul>
-        <li>Fostered collaboration between language interns and university students through organizing interactive events/workshops to enhance language learning experience </li>
-    </ul>
-</div>
-
-<div id="TA" class="container menu card" >
-    <h5 class="center"><strong>Department of Mathematics | Calculus III TA | Colgate University</strong> </h5>
-    <h5 class="center"><dfn> Aug - Dec 2021 </dfn></h5>
-
-    <ul>
-        <li>Tutored 2 sections (60 students) on topics including partial derivatives, multiple integrals, surfaces in 3-dimensional space and graded homework, providing detailed feedback to assist students’ progress </li>
-    </ul>
-</div>
-
-<div id="CL" class="container menu card" >
-    <h5 class="center"><strong>Office of Residential Life | Community Leader | Colgate University</strong> </h5>
-    <h5 class="center"><dfn> Aug 2021 - May 2022 </dfn></h5>
-    <ul>
-        <li>Led and supervised student residents by holding meetings, organizing events, and responding to emergencies to build sense of community and enhance overall on-campus experience</li>
-    </ul>
-</div>
- 
 <br>
 
 <!-- End page content -->
@@ -223,6 +236,7 @@ body, html {
 
 
 <script>
+
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;
@@ -231,13 +245,33 @@ function openMenu(evt, menuName) {
     x[i].style.display = "none";
   }
   tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
+  for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" dark-grey", "");
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " dark-grey";
 }
-document.getElementById("myLink").click();
+
+// Simulate click for first work experience
+document.getElementById("viettel").click();
+
+function openMenu2(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink2");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " dark-grey";
+}
+
+// Simulate click for first work experience
+document.getElementById("recipe").click();
+
 </script>
 
 </body>
