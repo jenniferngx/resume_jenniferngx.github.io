@@ -26,12 +26,16 @@ h5{
     font-weight:400;
     margin:10px 0
 }
+sub{
+    display: block;
+}
+
 .serif{font-family:serif}.sans-serif{font-family:sans-serif}
 .wide{letter-spacing:4px}
 .image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .tag{
-    background-color:#000;
-    color:#fff;
+    /* background-color:#000; */
+    color:#000;
     display:inline-block;
     padding-left:8px;
     padding-right:8px;
@@ -57,26 +61,56 @@ h5{
     text-align: center;
     width: auto;
 }
+
+/* .container-about {
+    padding: 0.01em 16px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  
+.white{
+    color: #fff;
+}
+.big{
+    font-size: 48px;
+}
 .content{
     margin-left:auto;
     margin-right:auto;
     max-width:980px;
     display: block;
 }
+.highlight {
+    background-image: linear-gradient(135deg, transparent 5%, turquoise 5%, turquoise 95%, transparent 95%);
+    background-size: 100% .6em;
+    background-repeat: no-repeat;
+    background-position: 0 85%;
+  }
+.skill-tag {
+    background-color: black;
+    color: white;
+    padding: 2px 7px;
+    margin: 1px;
+    display: inline-block; /* Makes the tag inline */
+    border-radius: 5px;
+
+}
 .aboutMe{
     margin-left:auto;
     margin-right:auto;
-    max-width:980px;
+    /* max-width:0px; */
     display: flex;
 }
   .profile-picture {
     flex: 1; /* Takes up 1 portion of the flex container */
-  }
+}
   
   .about-content {
     flex: 2; /* Takes up 2 portions of the flex container */
     padding-left: 70px; 
   }
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -89,6 +123,12 @@ h5{
 }
 .leadership-col{
     width: 33.333%
+}
+.centered{
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    height: 100vh; /* Full viewport height */
 }
 .container {
     padding: 0.01em 16px;
