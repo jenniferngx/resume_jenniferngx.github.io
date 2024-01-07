@@ -20,6 +20,7 @@ a {
 a:active, a:hover {
     outline-width: 0;
 }
+
 h5{
     font-size:18px;
     font-family:"Segoe UI",Arial,sans-serif;
@@ -61,20 +62,6 @@ sub{
     text-align: center;
     width: auto;
 }
-
-/* .container-about {
-    padding: 0.01em 16px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
-  
-.white{
-    color: #fff;
-}
-.big{
-    font-size: 48px;
-}
 .content{
     margin-left:auto;
     margin-right:auto;
@@ -96,40 +83,6 @@ sub{
     border-radius: 5px;
 
 }
-.aboutMe{
-    margin-left:auto;
-    margin-right:auto;
-    /* max-width:0px; */
-    display: flex;
-}
-  .profile-picture {
-    flex: 1; /* Takes up 1 portion of the flex container */
-}
-  
-  .about-content {
-    flex: 2; /* Takes up 2 portions of the flex container */
-    padding-left: 70px; 
-  }
-
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top:0
-}
-.navbar_link{
-    display: inline-block;
-    width:24%;
-}
-.leadership-col{
-    width: 33.333%
-}
-.centered{
-    display: flex;
-    align-items: center; /* Centers vertically */
-    justify-content: center; /* Centers horizontally */
-    height: 100vh; /* Full viewport height */
-}
 .container {
     padding: 0.01em 16px;
     max-width: 980px;
@@ -144,18 +97,38 @@ sub{
   display: table;
   clear: both;
 }
-.bar {
-    width: 100%;
-    overflow: hidden;
-    display: inline-block;
-    width: auto;
-}
 .card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
 .large{font-size:18px!important}
 .padding{padding:8px 16px!important}
 .padding-32{padding-top:32px!important;padding-bottom:32px!important}.padding-48{padding-top:48px!important;padding-bottom:48px!important}
 .padding-64{padding-top:64px!important;padding-bottom:64px!important}
-
+.padding-last{padding-top: 48px!important;padding-bottom: 200px!important;}
 .white,.hover-white:hover{color:#000!important;background-color:#fff!important}
 .black,.hover-black:hover{color:#fff!important;background-color:#000!important}
 .dark-grey,.hover-dark-grey:hover,.dark-gray,.hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+
+/* navBar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top:0
+}
+.navbar_link{
+    display: inline-block;
+    width:24%;
+}
+/* ABOUT section styling */
+.aboutMe{
+    margin-left:auto;
+    margin-right:auto;
+    /* max-width:0px; */
+    display: flex;
+}
+.profile-picture {
+    flex: 1; 
+}
+.about-content {
+    flex: 2; 
+    padding-left: 70px; 
+}
