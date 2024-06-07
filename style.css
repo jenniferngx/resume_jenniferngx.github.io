@@ -56,7 +56,9 @@ sub{
 }
 .block{display:block;width:100%}
 .col{float:left;width:100%}
+.col.s2{width:49.9%}
 .col.s3{width:33.33333%}
+.col.s4{width:24.9%}
 .col.s5{width:19.99999%}
 .center{
     text-align: center;
@@ -116,7 +118,7 @@ sub{
 }
 .navbar_link{
     display: inline-block;
-    width:24%;
+    width:19%;
 }
 /* ABOUT section styling */
 .aboutMe{
